@@ -1,0 +1,82 @@
+
+.Modal_Container{
+    z-index:10;
+    display: flex;
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+  
+    
+}
+.Modal_body{
+   width: 40vh;
+   height: 30vh;
+   border-radius:2vh;
+   padding: 2vh;
+   text-align: center;
+   -webkit-box-shadow: 0px 11px 22px -2px rgba(0, 0, 0, 0.75);
+   -moz-box-shadow: 0px 11px 22px -2px rgba(0, 0, 0, 0.75);
+   box-shadow: 0px 11px 22px -2px rgba(0, 0, 0, 0.75);
+}
+.Modal_text_body{
+  justify-content: center;
+  align-items: center;
+  height: 15vh;
+  
+}
+.Modal_text{
+  font-size: 2.5vh;
+  font-weight: bold;
+  
+}
+
+.Modal_btn_body{
+  display: flex;
+  height: 12vh;
+  margin-top: 1vh;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.Modal_btn{
+  width: 16vh;
+  height: 5vh;
+  border-radius: 2vh;
+  border: none;
+  cursor: pointer;
+  margin-left: 2vh;
+  margin-right: 2vh;
+  color: #fff;
+  font-size: 2.3vh;
+  font-weight: bold;
+}
+
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s;
+    
+  }
+  
+  @-webkit-keyframes animatezoom {
+    from {
+      -webkit-transform: scale(0)
+    j}
+  
+    dto {
+      -webkit-transform: scale(1)
+    }
+  }
+  
+  @keyframes animatezoom {
+    from {
+      transform: scale(0)
+    }
+  
+    to {
+      transorm: scale(1)
+    }
+  }

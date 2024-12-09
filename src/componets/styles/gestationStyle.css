@@ -1,0 +1,689 @@
+
+.gestation_conatainer{
+    z-index: 1;
+    position: absolute;
+    top: 10vh;
+    left: 20%;
+    margin: 0;
+    height: 90vh;
+    width: 80%;
+    background-color: rgb(184, 214, 185, 0.5 );
+   
+}
+
+.G_header{
+    display: flex;
+    width: 100%;
+    height: 10%;
+    background-color:rgb(128, 165, 128, 0.5);
+    
+    align-items: center;
+  }
+
+.G_header_btn{
+  display: flex;
+  border: none;
+  color: #141A23;
+  margin-left: 2%;
+  border-radius: 2vh;
+  font-size: 2.4vw; 
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+
+}
+.G_header_btn:hover{
+  color: #000;
+
+}
+.Icon_header_btn_Text{
+  position: absolute;
+  top: 6.3%;
+  left: 2%;
+  font-size: 1.3vh;
+  color: #000;
+  font-weight: bold;
+}
+.G_header_btn_table{
+  display: flex;
+  height: 100%;
+  width: 5%;
+  background-color: rgb(128, 165, 128, 0);
+  cursor: pointer;
+  align-items: center;
+  flex-direction: column;
+
+}
+.IconTable{
+  position: absolute;
+  top: 1.5%;
+}
+.IconTableText{
+  position: absolute;
+  top: 5%;
+  font-size: 1.9vh;
+}
+.G_hearder_more{
+  width: 10vw;
+  height: 60%;
+  border-radius: 5vh;
+  border: none;
+  background-color: #141A23;
+  color: #D3D4D7;
+  font-size: 1.3vw;  
+  cursor: pointer;
+  margin: 0vh 5vw;
+  
+}
+.G_header_buscar{
+  width: 20vw;
+  height: 5vh;
+  background-color: #485464;
+  border: none;
+  margin-left: 2vw;
+  border-radius: 5vw;
+  padding: 0 1vw;
+  color: #D3D4D7;
+  outline: none;
+  font-size: 1.3vw;
+
+}
+.G_header_buscar_btn{
+  display: inline-flex;
+  width: 2.5vw;
+  height: 2.5vw;
+  border-radius: 5vh;
+  border: none;
+  background-color: #141A23;
+  color: #D3D4D7;
+  font-size: 1.3vw; 
+  cursor: pointer;
+  margin: 0vh 2vh;
+  align-items: center;
+  justify-content: center;
+}
+.gestation{
+    color: #000;
+}
+
+/*
+* ============================================
+
+   These are the styles for the modal with the 
+   form to set the information.
+
+* ============================================
+
+*/
+.G_modal_container{
+    display: flex;
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    height: 90%;
+    justify-content: center;
+    align-items: center;
+    /*background-color: aqua;*/
+}
+.G_modal_body{
+   width: 60%;
+   height: 90%;
+   border-radius: 2vh;
+   -webkit-box-shadow: 0px 11px 22px -2px rgba(0, 0, 0, 0.75);
+   -moz-box-shadow: 0px 11px 22px -2px rgba(0, 0, 0, 0.75);
+   box-shadow: 0px 11px 22px -2px rgba(0, 0, 0, 0.75);
+   background-color:rgb(119, 145, 145);
+ 
+}
+.G_modal_form{
+  display: flex;
+  width: 100%;
+  height: 80%;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content:center;
+  align-items:center;
+  margin-top: 2%;
+  
+}
+.G_modal_label{
+   display: flex;
+   width: 30%;
+   height:7%;
+   color: #000;
+   font-weight: bold;
+ /*  background-color: blueviolet;*/
+   justify-content: flex-start;
+}
+.G_modal_input{
+    display: inline;
+    width: 50%;
+    height:7%;
+    border: none;
+    border-radius: 1vh;
+    background-color: rgb(142, 171, 171) ;
+    margin-left: 1%;
+    padding: 0% 2%;
+    
+}
+::placeholder{
+  color: #D6D6D6;
+}
+.G_modal_btn_body{
+    display: flex;
+    width: 100%;
+    height: 15%;
+    /*background-color: rebeccapurple;*/
+    justify-content: center;
+    align-items: center;
+}
+.G_modal_btn{
+    width: 20%;
+    height: 40%;
+    border: none;
+    margin: 5%;
+    border-radius: 2vh;
+    cursor: pointer;
+    background-color: #124A4A;
+    font-size: 2.5vh;
+    font-weight: bold;
+    color: #BDCBCB;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*
+* ============================================
+
+   These are the styles for the modal with the 
+   form to set the information.
+
+* ============================================
+
+*/
+.G_info_container{
+    display: grid;
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    overflow: auto;
+    /*background-color: #000;*/
+    grid-template-columns: repeat(3, 1fr);
+    
+} 
+
+.G_info_header{
+ /*margin: -2.5vw;*/
+  display: flex;
+  position: relative;
+  top: -2vh;
+  left: -2vh;
+  width: 22vw;
+  height: 7vh;
+  padding:2vh 2vh;
+  background-color: #709A71;
+  border-radius: 2vh 2vh 0vh 0vh;
+  align-items: center;
+  
+}
+
+.G_info_header_btn{
+  display: flex;
+  width: 20vw;
+  height: 10vh;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 2vw;
+}
+
+.G_info_header_title{
+  width: 15vw;
+  color: #fff;
+  font-size: 3vh;
+  font-weight: bold;
+  margin-right: 1vw;
+ 
+  
+}
+.G_info_header_delete{
+  display: flex;
+  width: 5vh;
+  height: 5vh;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5vh;
+  font-size: 3vh;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  margin-left: 1vw;
+  background-color: rgb(58, 143, 112, 0);
+}
+.ActualizarIcon{
+  display: block;
+  height:8vh;
+  width: 8vh;
+  cursor: pointer;
+  
+}
+.G_info_body{
+  display:flex;
+  background-color: #EFEFEF;
+  width: 22vw;
+  height: 63vh;
+  border-radius: 2vh;
+  padding:2vh 2vh;
+  margin: 2.5vw auto;
+  -webkit-box-shadow: 0px 11px 22px -2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 11px 22px -2px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 11px 22px -2px rgba(0, 0, 0, 0.75);
+  flex-direction: column;
+}
+.G_info_body:hover{
+  box-shadow: 0px 11px 22px -2px rgba(2, 143, 185, 0.75);
+}
+.G_info_text{
+  font-size: 2vh;
+  font-weight: bold;
+}
+
+.G_info_text2{
+  font-size: 2.4vh;
+  color: #023D58;
+  font-weight: bold;
+}
+
+
+/*** table */
+.G_table_container{
+ 
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 90%;
+  overflow: auto;
+  justify-content: center;
+  /*background-color: #000;*/
+  
+}
+
+.gestation_table_body{
+  display: inline-block;
+  width: 90%;
+  height: 90%;
+  background-color:#EFEFEF;;
+  margin-top: 2%;
+  border-radius: 1vh;
+  box-shadow: 0px 11px 22px -2px rgba(0, 0, 0, 0.75);
+}
+.gestation_table{
+  width: 72vw;
+  height:5%;
+  /*box-shadow: 0px 11px 22px -2px rgba(0, 0, 0, 0.75);*/
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+table, td, th {
+  height: 5vh;
+  border-collapse: collapse;
+  border: none;
+  padding: 1vh;
+  text-align: center;
+  font-size: 1vw;
+  color: #000;
+  font-family:'Times New Roman';
+  font-weight: 700;
+
+}
+
+
+th{
+
+  color: #fff;
+}
+th:nth-child(1) {
+  
+  border-top-left-radius: 1vh;
+}
+
+th:nth-last-child(1) {
+  border-top-right-radius: 1vh;
+}
+
+.gestation_table_header{
+
+  background-color:#709A71;
+  border-bottom: solid 0.3vh #000;
+  border-radius: 2vh;
+  
+}
+.table-footer{
+  display: flex;
+  position: absolute;
+  top: 85%;
+  width: 90%;
+  height: 8%;
+  justify-content: flex-end;
+  align-items: center;
+  border-top:0.3vh solid #000;
+
+}
+.table-footer-btn{
+  margin-right: 2%;
+  margin-left: 2%;
+  cursor: pointer;
+}
+
+
+
+@media (min-width: 660px) and (max-width: 875px){
+  .gestation_conatainer{
+    z-index: 1;
+    position: absolute;
+    top: 10vh;
+    left: 25%;
+    margin: 0;
+    height: 90vh;
+    width: 75%;
+    background-color: rgb(184, 214, 185, 0.5 );
+  }
+
+  
+  .G_header_btn{
+    position: relative;
+    width: 10vw;
+    height: 4.5vw;
+    border: none;
+    color: #141A23;
+    margin-left: 2%;
+    border-radius: 2vh;
+    font-size: 2.5vw; 
+    cursor: pointer;
+  
+    
+  }
+  .Icon_header_btn_Text{
+    display: inline-block;
+    position: absolute;
+    top: 0%;
+    font-size: 40vw;
+    color: #000;
+    font-weight: bold;
+  }
+  .G_header_buscar{
+    width: 20vw;
+    height: 5vh;
+    background-color: #485464;
+    border: none;
+    margin-left: 2vw;
+    border-radius: 5vw;
+    padding: 0 2vw;
+    color: #D3D4D7;
+    outline: none;
+    font-size: 2vw; 
+  }
+  .G_header_buscar_btn{
+    display: inline-flex;
+    width: 4vw;
+    height: 4vw;
+    border-radius: 5vh;
+    border: none;
+    background-color: #141A23;
+    color: #D3D4D7;
+    font-size: 2vw; 
+    cursor: pointer;
+    margin: 0vh 2vh;
+    align-items: center;
+    justify-content: center;
+  }
+
+ 
+  .G_info_container{
+    display: grid;
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    overflow: auto;
+    grid-gap: 1vw;
+    /*background-color: #000;*/
+    grid-template-columns: repeat(2, 1fr);
+    
+} 
+
+.G_info_body{
+  display:flex;
+  background-color: #EFEFEF;
+  width: 31vw;
+  height: 63vh;
+  border-radius: 2vh;
+  padding:2vh 2vh;
+  margin: 2.5vw auto;
+  -webkit-box-shadow: 0px 11px 22px -2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 11px 22px -2px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 11px 22px -2px rgba(0, 0, 0, 0.75);
+  flex-direction: column;
+}
+
+.G_info_header{
+ /*margin: -2.5vw;*/
+  display: flex;
+  position: relative;
+  top: -2vh;
+  left: -2vh;
+  width: 31vw;
+  height: 5vw;
+  padding:2vh 2vh;
+  background-color: #709A71;
+  border-radius: 2vh 2vh 0vh 0vh;
+  align-items: center;
+  
+}
+
+.G_info_header_btn{
+  display: flex;
+  width: 13vw;
+  height: 5vw;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 2vw;
+
+}
+
+.G_info_header_title{
+  width: 15vw;
+  color: #fff;
+  font-size: 3vh;
+  font-weight: bold;
+  margin-right: 1vw;
+ 
+  
+}
+.G_info_header_delete{
+  display: flex;
+  width: 5vh;
+  height: 5vh;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5vh;
+  font-size: 3vh;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  margin-left: 1vw;
+  background-color: rgb(58, 143, 112, 0);
+}
+
+.G_table_container{
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 90%;
+  overflow: auto;
+  justify-content: center;
+  /*background-color: #000;*/
+  
+}
+
+.gestation_table{
+  width:67.9vw;
+  height:5%;
+  /*box-shadow: 0px 11px 22px -2px rgba(0, 0, 0, 0.75);*/
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.gestation_table_body{
+  display: inline-block;
+  width: 90%;
+  height: 90%;
+  background-color:#EFEFEF;;
+  margin-top: 2%;
+  border-radius: 1vh;
+  box-shadow: 0px 11px 22px -2px rgba(0, 0, 0, 0.75);
+}
+table, td, th {
+  height: 5vh;
+  border-collapse: collapse;
+  border: none;
+  padding: 1vh;
+  text-align: center;
+  font-size: 1vw;
+  color: #000;
+  font-family:'Times New Roman';
+  font-weight: 700;
+
+}
+
+.gestation_table_header{
+  width: 100%;
+  background-color:#709A71;
+  border-bottom: solid 0.3vh #000;
+  border-radius: 2vh;
+  
+}
+
+.G_modal_body{
+  width: 88%;
+  height: 90%;
+  border-radius: 2vh;
+  -webkit-box-shadow: 0px 11px 22px -2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 11px 22px -2px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 11px 22px -2px rgba(0, 0, 0, 0.75);
+  background-color:#88AF98;
+
+}
+.G_modal_form{
+ display: flex;
+ width: 100%;
+ height: 80%;
+ flex-wrap: wrap;
+ flex-direction: row;
+ justify-content:center;
+ align-items:center;
+ margin-top: 2%;
+ 
+}
+.G_modal_label{
+  display: flex;
+  width: 40%;
+  height:7%;
+  color: #000;
+  font-weight: bold;
+  font-size: 2vw;
+/*  background-color: blueviolet;*/
+  justify-content: flex-start;
+}
+.G_modal_input{
+   display: inline;
+   width: 40%;
+   height:7%;
+   border: none;
+   border-radius: 1vh;
+   background-color: #447659;
+   margin-left: 1%;
+   padding: 0% 2%;
+   font-size: 2vw;
+   
+}
+
+.G_modal_btn_body{
+   display: flex;
+   width: 100%;
+   height: 15%;
+   /*background-color: rebeccapurple;*/
+   justify-content: center;
+   align-items: center;
+}
+.G_modal_btn{
+   width: 100%;
+   height: 40%;
+   border: none;
+   margin: 5%;
+   border-radius: 2vh;
+   cursor: pointer;
+   background-color: #447659;
+   font-size: 2.5vh;
+   font-weight: bold;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+
+}
+
+
+
+
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s;
+    
+}
+
+
+.animate2 {
+  -webkit-animation: animatezoom2 0.6s;
+  animation: animatezoom2 0.6s;
+  
+}
+
+@-webkit-keyframes animatezoom2 {
+  from {
+    -webkit-transform: scale(1)
+  j}
+
+  dto {
+    -webkit-transform: scale(0)
+  }
+}
+
+@keyframes animatezoom2 {
+  from {
+    transform: scale(1)
+  }
+
+  to {
+    transform: scale(0)
+  }
+}
+  
+  @-webkit-keyframes animatezoom {
+    from {
+      -webkit-transform: scale(0)
+    j}
+  
+    dto {
+      -webkit-transform: scale(1)
+    }
+  }
+  
+  @keyframes animatezoom {
+    from {
+      transform: scale(0)
+    }
+  
+    to {
+      transform: scale(1)
+    }
+  }

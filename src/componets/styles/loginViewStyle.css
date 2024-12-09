@@ -1,0 +1,108 @@
+.LogingView_Body{
+    width: 100vw;
+    height: 98vh;
+    padding-top: 2vh;
+    background-color: brown;
+}
+
+.logingView_box{
+    position: absolute;
+    top:0;
+    width: 50vw;
+    height: 100vh;
+    background-color: azure;
+}
+
+.logingView_box2{
+    display: flex;
+    position: absolute;
+    top:0;
+    left: 50vw;
+    width: 50vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: rgb(3,227,225);
+    background: linear-gradient(180deg, #80B96C 1%, #488833 100%);
+}
+.loging_img{
+    position: absolute;
+    top:0;
+    width: 50vw;
+    height: 100vh;
+    
+}
+.Reg_body{
+    display: flex;
+    width: 60%;
+    height: 60%;
+    background-color: aliceblue;
+    border-radius: 3vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0vh 2vh 2vh rgb(0,0,0, 0.5);
+}
+.Reg_input{
+    display: block;
+    width: 80%;
+    height: 10%;
+    margin: 2%;
+    border-radius: 3vh;
+    border: none;
+    background-color: #327104;
+    color: #fff; 
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: medium;
+}
+
+.submit{
+    color: #7C7E7A;
+}
+.Reg_btn{
+    border: none;
+    background-color:#23420C;
+    width: 20vh;
+    height: 5vh;
+    margin: 1%;
+    border-radius: 2vh;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+.logo{
+    position: absolute;
+    top: 10vh;
+    width: 18vh;
+    height: 18vh
+    
+}
+.logo2{
+    z-index: 1;
+    position: absolute;
+    top: 5vh;
+    left: 20vw;
+    width: 10vh;
+    height: 10vh
+}
+
+@media (max-width: 660px){
+    .logingView_box{
+      display: none;
+    }
+
+    .logingView_box2{
+        display: flex;
+        position: absolute;
+        top:0;
+        left:0vw;
+        width: 100vw;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        background: rgb(3,227,225);
+        background: linear-gradient(180deg, #80B96C 1%, #488833 100%);
+    }
+}

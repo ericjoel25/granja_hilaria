@@ -1,0 +1,426 @@
+.destete_conatainer{
+    z-index: 1;
+    position: absolute;
+    top: 10vh;
+    left: 20%;
+    margin: 0;
+    height: 90vh;
+    width: 80vw;
+    background-color:rgb(184, 214, 185, 0.5 );
+   
+}
+
+.Destete_Search_containter{
+  z-index:1;
+  position: absolute;
+  top: 9vh;
+  height: 81vh;
+  width: 80vw;
+  background-color:rgb(184, 214, 185, 1 );
+
+}
+
+.Destete_header{
+    display: flex;
+    width: 100%;
+    height: 10%;
+    background-color: rgb(128, 165, 128, 0.7);
+    align-items: center; 
+}
+
+
+.Destete_header_btn{
+  border: none;
+  /*background-color: #141A23;*/
+  color: #000;
+  margin-left: 2%;
+  border-radius: 2vh;
+  font-size: 2.4vw; 
+  cursor: pointer;
+  
+}
+.Destete_hearder_more{
+    width: 10vw;
+    height: 60%;
+    border-radius: 5vh;
+    border: none;
+    background-color: #141A23;
+    color: #D3D4D7;
+    font-size: 1.3vw;  
+    cursor: pointer;
+    margin: 0vh 5vw;
+    
+  }
+.Destete_header_buscar{
+    width: 20vw;
+    height: 5vh;
+    background-color: #485464;
+    border: none;
+    margin-left: 2vw;
+    border-radius: 5vw;
+    padding: 0 1vw;
+    color: #D3D4D7;
+    outline: none;
+    font-size: 1.3vw; 
+  }
+.Destete_header_buscar_btn{
+  display: inline-flex;
+  border-radius: 3vh;
+  width: 2.5vw;
+  height: 2.5vw;
+  border: none;
+  background-color: #141A23;
+  color: #D3D4D7;
+  font-size: 1.3vw;
+  cursor: pointer;
+  margin: 0vh 2vh;
+  justify-content: center;
+  align-items: center;
+}
+
+  
+.Destete_info_container{
+    position: absolute;
+    width: 80vw;
+    height: 90%;
+    display: grid;
+    grid-gap: -1vw;
+    grid-template-columns:repeat(3, 1fr);
+    overflow: auto;
+   
+    /*justify-content:;*/
+    
+} 
+
+
+.Destete_info_body{
+    display:flex;
+    width: 22vw;
+    border-radius: 2vh;
+    margin: 2.5vw 2vw;
+    -webkit-box-shadow: 0px 11px 22px -2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 11px 22px -2px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 11px 22px -2px rgba(0, 0, 0, 0.75);
+    flex-direction: column;
+    background-color: #D1D1D1;
+   
+  }
+
+.Destete_info_header{
+ /*margin: -2.5vw;*/
+  display: flex;
+  padding: 1vh 2vw;
+  background-color:#39645C;
+  border-radius: 2vh 2vh 0vh 0vh;
+  align-items: center;
+  
+}
+
+.Destete_info_header_btn{
+  display: flex;
+  width: 10vw;
+  align-items: center;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+
+.Destete_info_header_title{
+  width: 18vw;
+  color: #fff;
+  font-size: 3vh;
+  font-weight: bold;
+  margin-right: 1vw;
+ 
+}
+
+.Destete_info_header_delete{
+  font-size: 3vh;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  margin-left: 2vw;
+  color: #fff;
+};
+
+
+.Destete_info_text_container{
+  padding: 0 1vw;
+
+}
+.Destete_info_text{
+  font-size: 2vh;
+  font-weight: bold;
+  padding-left: 0.5vw;
+}
+
+.Destete_info_text2{
+  font-size: 2.4vh;
+  color: #023D58;
+  font-weight: bold;
+}
+
+
+@media (min-width: 660px) and (max-width: 875px){
+  .destete_conatainer{
+    z-index: 1;
+    position: absolute;
+    top: 10vh;
+    left: 25%;
+    margin: 0;
+    height: 90vh;
+    width: 75vw;
+    background-color:rgb(184, 214, 185, 0.5 );
+   
+  }
+  .Destete_Search_containter{
+    z-index:1;
+    position: absolute;
+    top: 9vh;
+    height: 81vh;
+    width: 75vw;
+    background-color:rgb(184, 214, 185, 1 );
+  
+  }
+  
+  .Destete_header_btn{
+    position: relative;
+    width:10.2vw;
+    border: none;
+    /*background-color: #fff;*/
+    color: #000;
+    margin-left: 5%;
+    border-radius: 2vh;
+    font-size:4vw; 
+    cursor: pointer;
+    margin-left: 5%;
+  }
+  .Destete_hearder_more{
+    width: 10vw;
+    height: 60%;
+    border-radius: 5vh;
+    border: none;
+    background-color: #141A23;
+    color: #D3D4D7;
+    font-size: 1.3vw;  
+    cursor: pointer;
+    margin: 0vh 5vw;
+    
+  }
+  .Destete_header_buscar{
+    width: 25vw;
+    height: 5vh;
+    background-color: #485464;
+    border: none;
+    margin-left: 2vw;
+    border-radius: 5vw;
+    padding: 0 2vw;
+    color: #D3D4D7;
+    outline: none;
+    font-size: 1.8vw; 
+  }
+  .Destete_header_buscar_btn{
+  display: inline-flex;
+  border-radius: 3vh;
+  width: 5vw;
+  height: 5vw;
+  border: none;
+  background-color: #141A23;
+  color: #D3D4D7;
+  font-size: 2vw;
+  cursor: pointer;
+  margin: 0vh 2vh;
+  justify-content: center;
+  align-items: center;
+  }
+   
+  .Destete_info_container{
+    position: absolute;
+    width: 75vw;
+    height: 90%;
+    display: grid;
+    grid-gap: -1vw;
+    grid-template-columns:repeat(2, 1fr);
+    overflow: auto;
+    /*justify-content:;*/
+    
+  } 
+
+  .Destete_info_body{
+    display:flex;
+    width: 32vw;
+    border-radius: 2vh;
+    margin: 2.5vw 2vw;
+    -webkit-box-shadow: 0px 11px 22px -2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 11px 22px -2px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 11px 22px -2px rgba(0, 0, 0, 0.75);
+    flex-direction: column;
+    background-color: #D1D1D1;
+  
+  }
+
+
+  .Destete_info_header_delete{
+  font-size: 3vh;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  margin-left: 1.5vw;
+  color: #fff;
+  };
+
+
+  .Destete_info_text_container{
+  padding: 0 1vw;
+
+  }
+  .Destete_info_text{
+  font-size: 1.8vh;
+  font-weight: bold;
+  padding-left: 0.5vw;
+  }
+
+  .Destete_info_text2{
+  font-size: 1.9vh;
+  color: #023D58;
+  font-weight: bold;
+  }
+
+}
+
+@media (max-width: 660px){
+  .destete_conatainer{
+    z-index: 1;
+    position: absolute;
+    top: 10vh;
+    left: 0%;
+    margin: 0;
+    height: 90vh;
+    width: 100vw;
+    background-color:rgb(184, 214, 185, 0.5 );
+   
+  }
+  .Destete_Search_containter{
+    z-index:1;
+    position: absolute;
+    top: 9vh;
+    height: 81vh;
+    width: 100vw;
+    background-color:rgb(184, 214, 185, 1 );
+  
+  }
+  
+  .Destete_header_btn{
+    position: relative;
+    width:13vw;
+    border: none;
+    color: #000;
+    margin-left: 5%;
+    border-radius: 2vh;
+    font-size:5.5vw; 
+    cursor: pointer;
+    margin-left: 5%;
+  }
+  .Icon_header_btn_Text{
+    position: absolute;
+    top: 3.3vh;
+  }
+  .Destete_hearder_more{
+    width: 10vw;
+    height: 60%;
+    border-radius: 5vh;
+    border: none;
+    background-color: #141A23;
+    color: #D3D4D7;
+    font-size: 2vw;  
+    cursor: pointer;
+    margin: 0vh 5vw;
+    
+  }
+  .Destete_header_buscar{
+    width: 36vw;
+    height: 5vh;
+    background-color: #485464;
+    border: none;
+    margin-left: 2vw;
+    border-radius: 5vw;
+    padding: 0 2vw;
+    color: #D3D4D7;
+    outline: none;
+    font-size: 3vw; 
+  }
+  .Destete_header_buscar_btn{
+  display: inline-flex;
+  border-radius: 3vh;
+  width: 6vw;
+  height: 6vw;
+  border: none;
+  background-color: #141A23;
+  color: #D3D4D7;
+  font-size: 3vw;
+  cursor: pointer;
+  margin: 0vh 2vh;
+  justify-content: center;
+  align-items: center;
+  }
+   
+  .Destete_info_container{
+    position: absolute;
+    width: 100vw;
+    height: 90%;
+    display: grid;
+    grid-gap: 1vw;
+    grid-template-columns:repeat(1, 1fr);
+    overflow: auto;
+    /*justify-content:;*/
+    
+  } 
+
+  .Destete_info_body{
+    display:flex;
+    width: 50vw;
+    border-radius: 2vh;
+    margin: 2.5vw auto;
+    -webkit-box-shadow: 0px 11px 22px -2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 11px 22px -2px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 11px 22px -2px rgba(0, 0, 0, 0.75);
+    flex-direction: column;
+    background-color: #D1D1D1;
+  
+  }
+
+  .Destete_info_header_btn{
+    display: flex;
+    width: 25vw;
+    align-items: center;
+    justify-content: flex-end;
+    cursor: pointer;
+  }
+  
+  .Destete_info_header_delete{
+    font-size: 3vh;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    margin-left: 4vw;
+    color: #fff;
+    
+  }
+
+  .Destete_info_text_container{
+   padding: 0 1vw;
+
+  }
+  .Destete_info_text{
+    font-size: 1.8vh;
+    font-weight: bold;
+    padding-left: 0.5vw;
+    margin-left: 1vw;
+  }
+
+  .Destete_info_text2{
+    font-size: 1.9vh;
+    color: #023D58;
+    font-weight: bold;
+  }
+
+}
