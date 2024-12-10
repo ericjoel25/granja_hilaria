@@ -62,7 +62,7 @@ h1{
   outline: none;
   background-color: rgb(197, 216, 197 );
   text-decoration: none;
-  justify-content:space-between;
+  justify-content:center;
   padding: 0vh 5vh;
   align-items: center;
   box-sizing: none;
@@ -71,14 +71,14 @@ h1{
   box-shadow: 0.5vh 1vh 1vh rgb(0, 0, 0, 0.5);
 }
 .menu_btn2{
-  background-color: #B2B2B2;
+  background-color: #4e7b4f;
 }
 .menu_btn_text{
   color: #000;
   font-size: 1.3vw;
   font-weight: bold;
   box-sizing:inherit;
- 
+
  }
 .section{
   z-index: 10;

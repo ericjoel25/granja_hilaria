@@ -1,0 +1,139 @@
+.varraco_conatainer{
+    z-index: 1;
+    position: absolute;
+    top: 10vh;
+    left: 20%;
+    margin: 0;
+    height: 90vh;
+    width: 80vw;
+    background-color: #f2f7f2;
+    
+}
+
+.V_header{
+    display: flex;
+    width: 100%;
+    height: 10%;
+    background-color: rgb(128, 165, 128, 0.5);
+    align-items: center; 
+}
+
+.V_header_btn{
+    margin-left: 2rem;
+}
+
+
+
+
+.V_header_buscar_btn{
+    display: flex;
+    width: 1.8rem;
+    height: 1.8rem;
+    background-color: red;
+}
+
+.V_header_buscar{
+    width: 20vw;
+    height: 5vh;
+    background-color: #80a580;
+    border: none;
+    margin-left: 2vw;
+    border-radius: 5vw;
+    padding: 0 1vw;
+    color: #ffffff;
+    outline: none;
+    font-size: 1.3vw;
+   
+   }
+   .V_header_buscar::placeholder{
+     color: #0c0c0c;
+   }
+   
+   .V_header_buscar_btn{
+    display: inline-flex;
+    width: 2.5vw;
+    height: 2.5vw;
+    border-radius: 5vh;
+    border: none;
+    background-color: #141A23;
+    color: #D3D4D7;
+    font-size: 1.3vw; 
+    cursor: pointer;
+    margin: 0vh 2vh;
+    align-items: center;
+    justify-content: center;
+   }
+
+   .V_header_btn:hover{
+    color: #000;
+   
+   }
+   
+   .V_header_btn:active{
+     opacity: 0;
+   }
+
+ .V_info_container{
+    height: 80%;
+    width: 90%;
+    background-color: #9bbb9a;
+    border-radius: 1rem;
+    justify-self: center;
+  
+    margin-top: 2rem;
+ } 
+
+ .table{
+    width: 100%;
+    background-color: #9bbb9a;
+    border-radius: 1rem 1rem 0rem 0rem;
+  }
+
+ .tableHeader{
+    height: 3rem;
+    width: 100%;
+    background-color:#4e7b4f;
+    border-radius: 1rem 1rem 0rem 0rem;
+    
+ }
+ .table_header_tr{
+ 
+ }
+ .table_btn{
+   background-color: transparent; 
+   border: none;
+   font-size: 0.9rem;
+   cursor: pointer;
+ } 
+ .table_btn:active{
+  opacity: 0.5;
+} 
+
+ .table_btn2{
+   background-color: transparent; 
+   border: none;
+   font-size: 1.21rem;
+   cursor: pointer;
+ }
+
+ .table_btn2:active{
+   opacity: 0.5;
+ }
+
+ .footer{
+   position: absolute;
+   top: 86%;
+   width: 90%;
+   display: flex;
+   /*background-color: red;*/
+   justify-content: right;
+   align-items: center;
+   border-top-style:solid;
+   border-top-color: #000;
+   border-top-width: 0.1rem;
+ }
+ .footer_btn{
+   font-size: 1rem;
+   margin: 1rem;
+   cursor: pointer;
+ }

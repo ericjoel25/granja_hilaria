@@ -66,7 +66,7 @@ export function Home(props) {
                 <span onClick={() => HandleopenMenu()}>
                     <FontAwesomeIcon className="headerMuneButton" icon={faBars} />
                 </span>
-                <h1 style={{ fontWeight: 'bold', fontFamily: 'inherit', fontStyle: 'italic' }}>Doña Hilaria</h1>
+                {/*<h1 style={{ fontWeight: 'bold', fontFamily: 'inherit', fontStyle: 'italic' }}>Doña Hilaria</h1> */}
             </header>
 
             <aside className='menu_container' >
@@ -77,28 +77,32 @@ export function Home(props) {
 
                     <Link to={'/'} className={`${color === 'Gestación' ? 'menu_btn2' : null} menu_btn`} onClick={() => handleColor('Gestación')} >
                         <p className="menu_btn_text">Gestación</p>
-                        <img className="imagen" src={Imagen4} alt='imagen' height='40vh' width='40vw'></img>
+                     
+                        {/*   <img className="imagen" src={Imagen4} alt='imagen' height='40vh' width='40vw'></img> */}
                     </Link>
 
                     <Link to={'/Verraco'} className={`${color === 'Verraco' ? 'menu_btn2' : 'menu_btn'} menu_btn`} onClick={() => handleColor('Verraco')}>
                         <p className="menu_btn_text">Verraco</p>
-                        <img src={Imagen1} alt='imagen' height='40vh' width='40vw'></img>
+                       
+                        {/* <img src={Imagen1} alt='imagen' height='40vh' width='40vw'></img> */}
                     </Link>
 
                     <Link to={'/Engordar'} className={`${color === 'Engordar' ? 'menu_btn2' : 'menu_btn'} menu_btn`} onClick={() => handleColor('Engordar')}>
                         <p className="menu_btn_text">Engordar</p>
-                        <img src={Imagen2} alt='imagen' height='40vh' width='40vw'></img>
+                       
+                        {/*  <img src={Imagen2} alt='imagen' height='40vh' width='40vw'></img>*/}
                     </Link>
 
                     <Link to={'/Destete'} className={`${color === 'Destete' ? 'menu_btn2' : 'menu_btn'} menu_btn`} onClick={() => handleColor('Destete')}>
                         <p className="menu_btn_text">Destete</p>
-                        <img src={Imagen3} alt='imagen' height='40vh' width='40vw'></img>
+                      
+                        {/*  <img src={Imagen3} alt='imagen' height='40vh' width='40vw'></img> */}
                     </Link>
 
 
                     <Link to={'/Vaccination'} className={`${color === 'Vaccination' ? 'menu_btn2' : 'menu_btn'} menu_btn`} onClick={() => handleColor('Vaccination')}>
                         <p className="menu_btn_text">Vacunación</p>
-                        <img src={Imagen5} alt='imagen' height='40vh' width='40vw'></img>
+                       {/*<img src={Imagen5} alt='imagen' height='40vh' width='40vw'></img> */}
                     </Link>
 
 
